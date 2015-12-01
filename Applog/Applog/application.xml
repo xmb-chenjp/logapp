@@ -6,7 +6,10 @@
   <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->  
   <!--view id="demo" ref="demo.dsl"><extend windowSoftInputMode="stateUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustUnspecified|adjustResize|adjustPan"/></view-->  
   <view id="Login" ref="Login.dsl" include="true"/>  
-  <view id="Week" ref="Week.dsl" include="true"/>
+  <view id="Week" ref="Week.dsl" include="true"/>  
+  <view id="Day" ref="Day.dsl" include="true"/>  
+  <view id="DayChoose" ref="DayChoose.dsl" include="true"/>  
+  <view id="Daysend" ref="Daysend.dsl" include="true"/> 
 </application>
 <!--
 【屏幕显示方向】
