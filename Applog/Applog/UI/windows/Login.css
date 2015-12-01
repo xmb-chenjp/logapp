@@ -16,9 +16,9 @@ valign:TOP;
  #wloginpanel {
 halign:center;
 height:fill;
-width:fill;
-layout:vbox;
 background:#f2f2f2;
+layout:vbox;
+width:fill;
 valign:TOP;
 }
  #wuserpanel {
