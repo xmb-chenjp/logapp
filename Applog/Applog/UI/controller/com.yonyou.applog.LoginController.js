@@ -36,7 +36,8 @@ function com$yonyou$applog$LoginController$evaljs(js){
     eval(js)
 }
 function com$yonyou$applog$LoginController$wloginbutton_onclick(sender, args){
-
+	$alert("");
+	
 }
 com.yonyou.applog.LoginController.prototype = {
     wloginbutton_onclick : com$yonyou$applog$LoginController$wloginbutton_onclick,
