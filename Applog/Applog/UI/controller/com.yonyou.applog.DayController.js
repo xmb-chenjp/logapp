@@ -36,10 +36,16 @@ function com$yonyou$applog$DayController$evaljs(js){
     eval(js)
 }
 function com$yonyou$applog$DayController$button3_onclick(sender, args){
+	var fwork=$id("fwork").getAttribute("value");
+	var nfwork=$id("nfwork").getAttribute("value");
+	var work=$id("work").getAttribute("value");
+	var memo=$id("memo").getAttribute("value");
+	var weizhi=$id("weizhi").getAttribute("value");
 	$view.open({
-		"viewid" : "xx.xx.xx.WindowId",//目标页面（首字母大写）全名，
+		"viewid" : "com.yonyou.applog.DayChoose",//目标页面（首字母大写）全名，
 		"isKeep" : "true",//保留当前页面不关闭
-		"callback":"mycallback()"//回调的JS方法
+		"callback":"mycallback()",//回调的JS方法
+		"mydata":"{fwork:"+fwork+",nfwork:"+nfwork+",work:"+work+",memo:"+memo+",weizhi:"+weizhi+"}"
 	});
 	
 }

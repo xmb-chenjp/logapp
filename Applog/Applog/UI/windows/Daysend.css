@@ -8,9 +8,9 @@ valign:TOP;
  #viewPage0 {
 halign:center;
 height:fill;
-width:fill;
-background:#F5F5F5;
 layout:vbox;
+background:#F5F5F5;
+width:fill;
 valign:TOP;
 }
  #navigatorbar0 {
@@ -26,11 +26,96 @@ background-image:btn_back;
 }
  #label0 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 color:#000000;
 font-size:14;
 width:0;
 font-family:default;
 valign:center;
+}
+ #button1 {
+height:44;
+widthWrap:36.0;
+width:wrap;
+}
+ #panel0 {
+halign:center;
+height:400.0;
+layout:vbox;
+width:300.0;
+valign:TOP;
+}
+ #listviewdefine0 {
+halign:center;
+height:390.0;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel1 {
+border-bottom-width:1;
+halign:LEFT;
+height:40.0;
+background:#FFFFFF;
+layout:hbox;
+width:fill;
+valign:center;
+border-bottom-color:#C7C7C7;
+}
+ #panel2 {
+halign:LEFT;
+height:40.0;
+layout:hbox;
+width:300.0;
+valign:center;
+}
+ #panel3 {
+halign:left;
+height:40.0;
+layout:vbox;
+width:100.0;
+valign:CENTER;
+}
+ #name {
+halign:center;
+height:wrap;
+widthWrap:30.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #panel4 {
+halign:left;
+height:40.0;
+layout:vbox;
+width:170.0;
+valign:CENTER;
+}
+ #tel {
+halign:center;
+height:wrap;
+widthWrap:60.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+font-family:default;
+valign:center;
+}
+ #panel5 {
+halign:center;
+height:40.0;
+layout:vbox;
+width:30.0;
+valign:TOP;
+}
+ #checkbox0 {
+height:40;
+width:30;
+check-on-image:checkbox_select;
+check-off-image:checkbox_noselect;
 }

@@ -26,8 +26,8 @@ background-image:btn_back;
 }
  #label0 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 color:#000000;
 font-size:14;
 width:0;
@@ -45,8 +45,8 @@ valign:CENTER;
 padding-right:15;
 halign:CENTER;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
@@ -62,8 +62,8 @@ valign:center;
 }
  #label8 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 color:#000000;
 font-size:14;
 width:0;
@@ -94,8 +94,8 @@ valign:CENTER;
 padding-right:15;
 halign:CENTER;
 height:44;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:center;
 }
@@ -111,8 +111,8 @@ valign:center;
 }
  #label2 {
 halign:center;
-weight:1;
 height:fill;
+weight:1;
 color:#000000;
 font-size:14;
 width:0;
